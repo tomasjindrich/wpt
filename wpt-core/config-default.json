@@ -1,0 +1,152 @@
+{
+  "theme": {
+
+    "colors": {
+      "primary"   : null,
+      "secondary" : null
+    },
+
+    "fonts": {
+      "text"    : "Open Sans",
+      "display" : "Source Sans Pro"
+    }
+  },
+
+  "modules": {
+
+    "load-css": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "acf-options": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "comments-disable": {
+      "enabled"  : true,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "cpt-doporuceni": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "cpt-projekty": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "dashboard-clean": {
+      "enabled"  : true,
+      "frontend" : false,
+      "backend"  : true,
+      "options"  : {
+        "welcome_panel"             : true,
+        "dashboard_incoming_links"  : false,
+        "dashboard_plugins"         : false,
+        "dashboard_primary"         : false,
+        "dashboard_secondary"       : false,
+        "dashboard_quick_press"     : false,
+        "dashboard_recent_drafts"   : false,
+        "dashboard_recent_comments" : false,
+        "dashboard_right_now"       : false,
+        "dashboard_activity"        : false,
+        "dashboard_site_health"     : true
+      }
+    },
+
+    "dashboard-wpt-admin": {
+      "enabled"  : false,
+      "frontend" : false,
+      "backend"  : true
+    },
+
+    "header-clean": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "image-add-sizes": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "svg-allow-upload": {
+      "enabled"  : true,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "svg-icons": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "shortcodes": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : true
+    },
+
+    "login-style": {
+      "enabled"  : false,
+      "frontend" : true,
+      "backend"  : false,
+      "options"  : {
+        "logoWidth"  : null,
+        "logoHeight" : null,
+        "svgColor"   : null,
+        "svgPath"    : null
+      }
+    }
+  },
+  "assets": {
+   
+    "css": {
+
+      
+
+      "bundle": {
+        "enabled"      : false,
+        "descripton"   : "Utility, komponenty, vendors...",
+        "frontend" : true,
+        "backend"  : true,
+        "pagesInclude" : [],
+        "pagesExclude" : [],
+        "file"         : "/wpt-theme/assets/css/bundle.css"
+      },
+
+      "theme": {
+        "enabled"      : false,
+        "descripton"   : "Základní souubor se styly a overides pro aktuální projekt",
+        "frontend" : true,
+        "backend"  : true,
+        "pagesInclude" : [],
+        "pagesExclude" : [],
+        "file"         : "/wpt-theme/assets/css/theme.css"
+      },
+
+      "custom": {
+        "enabled"      : false,
+        "descripton"   : "Doplňkový soubor pro dodatečné úpravy, aby se nemuselo vrtat do hlavních css souborů",
+        "frontend" : true,
+        "backend"  : true,
+        "pagesInclude" : [],
+        "pagesExclude" : [],
+        "file"         : "/wpt-theme/assets/css/theme.css"
+      }
+
+    }
+  }
+}

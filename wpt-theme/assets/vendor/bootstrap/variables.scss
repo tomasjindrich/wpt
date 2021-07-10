@@ -1,0 +1,44 @@
+// scss-docs-start theme-color-variables
+$primary:       $blue;
+$secondary:     $gray-600;
+$light:         $gray-200;
+// scss-docs-end theme-color-variables
+
+// Oxygen Builder Grid
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 992px,
+  xl: 1120px,
+  // xxl: 1400px
+);
+
+$container-max-widths: (
+  sm: 440px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+
+$enable-caret:                true !default;
+$enable-rounded:              true !default;
+$enable-shadows:              false !default;
+$enable-gradients:            false !default;
+$enable-transitions:          true !default;
+$enable-reduced-motion:       true !default;
+$enable-smooth-scroll:        true !default;
+$enable-grid-classes:         true !default;
+$enable-button-pointers:      true !default;
+$enable-rfs:                  true !default;
+$enable-validation-icons:     true !default;
+$enable-negative-margins:     false !default;
+$enable-deprecation-messages: true !default;
+$enable-important-utilities:  true !default;

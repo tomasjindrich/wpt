@@ -1,0 +1,15 @@
+
+$primary:       '#ff6e6c';
+$secondary:     '#67568c';
+
+// oxygen compatible
+$bp-sm: 480px !default;
+$bp-md: 768px !default;
+$bp-lg: 992px !default;
+$bp-xl: 1280px !default;
+
+
+
+
+// default variables with default values (will be overides with custom values above)
+@import '../../../wpt-assets/scss/variables';

@@ -1,0 +1,41 @@
+{
+  "engine": {
+    "modules" : true,
+    "CSSLoad" : true,
+    "JSLoad"  : true
+  },
+
+  "theme": {
+
+    "colors": {
+      "primary"   : "#ff6e6c",
+      "secondary" : "#67568c"
+    },
+
+    "fonts": {
+      "text"    : "Open Sans",
+      "display" : "Source Sans Pro"
+    }
+  },
+
+  "modules": {
+    "load-css"            : { "enabled" : true },
+    "image-add-sizes"     : { "enabled" : true },
+    "cpt-doporuceni"      : { "enabled" : true },
+    "cpt-projekty"        : { "enabled" : true },
+    "dashboard-wpt-admin" : { "enabled" : true },
+    "shortcodes"          : { "enabled" : true },
+    "svg-icons"           : { "enabled" : true },
+    "login-style"         : { "enabled" : true }
+  },
+
+  "assets": {
+    
+    "css": {
+      "bundle"     : { "enabled" : true },
+      "theme"     : { "enabled" : true },
+      "custom" : { "enabled" : false }
+    }
+
+  }
+}
